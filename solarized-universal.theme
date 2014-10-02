@@ -162,7 +162,7 @@ abstracts = {
   pubnick = "%N%_$*%_%n";
 
   # public message in channel meant for me, $0 = nick mode, $1 = nick
-  pubmsgmenick = "{msgnick $0 $1-}";
+  pubmsgmenick = "{msgnick $0 $1-}%m";
   # %m = magenta
   menick = "%m$*%n";
 
